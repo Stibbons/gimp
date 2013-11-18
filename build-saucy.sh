@@ -8,6 +8,7 @@ sudo apt-get install gtk-doc-tools libbabl-dev libgegl-dev gegl libopenraw1 libg
 sudo apt-get install liblcms2-dev libgs-dev libwebkit-dev libxmpi4-dev libpoppler-dev libjasper-dev
 sudo apt-get install libmng-dev libopenexr-dev libaa1-dev libpoppler-glib-dev libwmf-dev xvfb
 
+sudo apt-get remove gimp libgimp2.0
 
 echo "Configuring..."
 ./autogen.sh
